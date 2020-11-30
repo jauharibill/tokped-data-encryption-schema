@@ -59,7 +59,6 @@
     
     print "\nEncrypted : " . $encryptedStr . "\n";
 
-
     // This step is used to decrypt rsa base64 string into plain text payload
     // The process should be
     // 1. load private key
