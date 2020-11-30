@@ -1,7 +1,7 @@
 <?php
 
-$plaintext = "message to be encrypted";
-$cipher = "aes-128-gcm";
+$plaintext = "bill tanthowi jauhari";
+$cipher = "aes-256-gcm";
 $key  = "secretkey";
 
 if (in_array($cipher, openssl_get_cipher_methods()))
